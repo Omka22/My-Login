@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('img.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+}
+.greet {
+    font-size: 50px;
+    font-weight: 500;
+    width: auto;
+    height: 100px;
+
+}
+
+.text1 {
+    width: 250px;
+    height: 60px;
+    padding-left: 125px;
+    padding-top: 30px;
+}
+
+.buttons {
+    width: auto;
+    height: 60px;
+    padding: 20px 55px;
+}
+
+.btn1, .btn2 {
+    font-size: 25px;
+    padding: 15px 60px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn1 {
+    background-color: rgba(155, 67, 221);
+    border: 2px solid rgba(155, 67, 221);
+    color: white;
+    transition-duration: .5s;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn2 {
+    background-color: white;
+    border: 3px solid whitesmoke;
+    transition-duration: .5s;
+}
+
+.btn2:hover {
+    background-color: rgba(155, 67, 221);
+    color: white;
+}
+
+.forma {
+    width: auto;
+    height: 180px;
+}
+
+#email, #password {
+    width: 430px;
+    height: 60px;
+    margin: 15px 30px;
+    font-size: 20px;
+    border: 3px solid whitesmoke;
+    border-radius: 7px;
+    padding-left: 5px;
+}
+
+#password {
+    margin-top: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link {
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.link1 {
+    color: indianred;
+}
+
+
+.main-btn {
+    font-size: 30px;
+    width: 350px;
+    height: 60px;
+    margin: 10px 70px;
+    background-color: rgba(155, 67, 221);
+    border: 2px solid rgba(155, 67, 221);
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+    transition-duration: .5s;
+}
+
+.main-btn:hover {
+    background-color: white;
+    color: black;
+}
+.finale {
+    font-size: 22px;
+    margin: 30px 120px;
+}
+
+.finale-2 {
+    color: indianred;
+}
